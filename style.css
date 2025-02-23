@@ -1,0 +1,16 @@
+.gray-bkg {
+    background: #eeeeee;
+}
+
+.logo {
+    width: 160px;
+}
+
+.intro-block {
+    display: flex;
+}
+
+.centered-block {
+    margin: 0 auto;
+    width: 1157px;
+}
