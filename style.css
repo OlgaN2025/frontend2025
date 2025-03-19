@@ -1,3 +1,7 @@
+body {
+    min-width: 1157px;
+}
+
 .gray-bkg {
     background: #eeeeee;
 }
@@ -5,28 +9,18 @@
 .logo {
     width: 160px;
     margin-top: 49px;
-    margin-bottom: 50px;
-}
-
-.logo2 {
-    position: relative;
-    right: 750px;
 }
 
 .intro-block {
     display: flex;
-    margin: 0 auto;
-    width: 1157px;
-    justify-content: space-between;
 }
 
-.intro-block header {
+.intro-block-header {
     font-family: "Roboto", serif;
     font-size: 55px;
     font-weight: 500;
     line-height: 1;
-    margin-top: 114px;
-
+    margin-top: 78px;
 }
 
 .intro-block-subheader {
@@ -35,7 +29,6 @@
     font-weight: 400;
     line-height: 24px;
     margin-top: 25px;
-
 }
 
 .intro-block-button {
@@ -54,12 +47,13 @@
 }
 
 .centered-block {
-    margin-top: 80px;
     margin: 0 auto;
     width: 1157px;
+}
+
+.product-wrapper {
     display: flex;
     justify-content: space-between;
-
 }
 
 .product-img {
@@ -89,41 +83,78 @@
     font-weight: 500;
     line-height: 18px;
     text-transform: uppercase;
+    color: white;
+    border: 0px;
+    height: 50px;
+    width: 160px;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+.product-btn-pink {
     background: #FB565A;
-    color: white;
-    border: 0px;
-    height: 50px;
-    width: 160px;
-    cursor: pointer;
-    margin-top: 32px;
 }
 
-.product-btn2 {
-    font-family: "Roboto", serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18px;
-    text-transform: uppercase;
-    background: #56fb7f;
-    color: white;
-    border: 0px;
-    height: 50px;
-    width: 160px;
-    cursor: pointer;
-    margin-top: 32px;
+.product-btn-yellow {
+    background: #efc849;
 }
 
-.product-btn3 {
+.product-btn-green {
+    background: #00CA74;
+}
+
+.studio-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1157px;
+    padding: 20px;
+}
+
+.studio-description {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.studio-achievements {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.studio-wrapper-h2 {
     font-family: "Roboto", serif;
-    font-size: 16px;
     font-weight: 500;
-    line-height: 18px;
-    text-transform: uppercase;
-    background: #f8fb56;
-    color: rgb(255, 255, 255);
-    border: 0px;
-    height: 50px;
-    width: 160px;
-    cursor: pointer;
-    margin-top: 32px;
+    font-size: 45px;
+    line-height: 45px;
+    width: 650px;
+    height: 91px;
+    top: 1127px;
+    left: 140px;
+    margin-top: 80px;
+}
+
+.studio-wrapper-p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 646px;
+    height: 49px;
+    top: 1250px;
+    left: 140px;
+    margin-top: 24px;
+}
+
+.studio-wrapper-h3 {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    width: 306px;
+    height: 24px;
+    top: 1339px;
+    left: 140px;
+    margin-top: 24px;
+    margin-bottom: 50px;
 }
